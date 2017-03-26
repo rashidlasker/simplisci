@@ -1,0 +1,14 @@
+---
+declared-services:
+  HackUVA_App:
+    label: Credentials-1
+    plan: free
+
+applications:
+- name: hack-uva-app
+  path: .
+  buildpack: sdk-for-nodejs
+  command: npm start
+  memory: 512M
+  services:
+  - HackUVA_App

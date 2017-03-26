@@ -1,12 +1,12 @@
 {
-  "name": "hackathon-starter",
-  "version": "4.3.0",
-  "description": "A boilerplate for Node.js web applications",
+  "name": "hack-uva-app",
+  "version": "0.1.0",
+  "description": "Uses IBM Watson to simplify complicated scientific papers.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahat/hackathon-starter.git"
+    "url": "https://github.com/rashidlasker/hack-uva-app.git"
   },
-  "author": "Sahat Yalkabov",
+  "author": "Rashid Lasker",
   "license": "MIT",
   "scripts": {
     "start": "node app.js",
@@ -59,7 +59,8 @@
     "tumblr.js": "^1.1.1",
     "twilio": "^3.3.1-edge",
     "twit": "^2.2.5",
-    "validator": "^7.0.0"
+    "validator": "^7.0.0",
+    "watson-developer-cloud": "^2.27.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -82,5 +83,9 @@
       "no-console": 0,
       "no-plusplus": 0
     }
+  },
+  "engines": {
+    "node": "6.9.4",
+    "npm": "3.10.10"
   }
 }
