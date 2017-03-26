@@ -24,6 +24,7 @@ exports.index = (req, res) => {
  * POST /contact
  * Send a contact form via Nodemailer.
  */
+exports.data = (req, res) => {
 	const filename = 'neuro.txt';
 	fs.readFile(filename, 'utf-8', function(file_error, file_data) {
 	  if (file_error) {
