@@ -24,7 +24,6 @@ fs.readFile(filename, 'utf-8', function(file_error, file_data) {
         categories: {},
         emotion: {},
         entities: {},
-        metadata: {},
         relations: {},
         semantic_roles: {},
         sentiment: {}
