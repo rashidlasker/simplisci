@@ -34,7 +34,8 @@ fs.readFile(filename, 'utf-8', function(file_error, file_data) {
         console.log(err);
         return;
       }
-      console.log(res);
+      document.getElementById("box").innerHTML = res;
+      //console.log(res);
     });
   }
 });
