@@ -12,3 +12,5 @@ applications:
   memory: 512M
   services:
   - HackUVA_App
+  env:
+   NPM_CONFIG_PRODUCTION: false
