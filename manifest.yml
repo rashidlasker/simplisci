@@ -1,7 +1,7 @@
 ---
 declared-services:
   HackUVA_App:
-    label: Credentials-1
+    label: natural-language-understanding
     plan: free
 
 applications:
